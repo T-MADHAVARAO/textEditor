@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bg {
+  width: 100vw;
+  height: 100vh;
+  background-color: navy;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 60%;
+  height: 80%;
+  padding: 10px;
+  background-color: darkblue;
+  display: flex;
+}
+.head-img {
+  width: 50%;
+  padding: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  width: 100%;
+}
+.edit-cont {
+  padding: 10px;
+  color: white;
+  background-color: navy;
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+}
+.normal-icon {
+  color: #f1f5f9;
+}
+.select-icon {
+  color: #faff00;
+}
+button {
+  background-color: transparent;
+  border: 0px;
+}
+.icons {
+  list-style: none;
+  display: flex;
+  list-style-position: initial;
+}
